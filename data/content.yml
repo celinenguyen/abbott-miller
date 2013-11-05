@@ -1,0 +1,6 @@
+- name: 'Education'
+  id: 'education'
+  text: 'He studied at Cooper Union'
+- name: 'Design/Writing/Research'
+  id: design-writing-research
+  text: "He cofounded..."

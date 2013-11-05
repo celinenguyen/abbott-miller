@@ -1,0 +1,14 @@
+---
+title: v0.1 (Abbott Miller)
+---
+
+<header>
+	<h1>Abbott Miller</h1>
+</header>
+
+<% data.content.each do |item| %>
+<div id="<%= item.id %>" class="content-block">
+	<h3><%= item.name %></h3>
+	<p><%= item.text %>
+</div>
+<% end %>
