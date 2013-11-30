@@ -1,0 +1,99 @@
+@charset "utf-8";
+@import "compass";
+
+body {
+  font-family: 'minion-pro', serif;
+  margin: 0;
+  margin-top: -20px;
+  padding: 0;
+  position: relative;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  height: 10vh;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.content-block {
+  border-bottom: 2px solid red;
+  min-height: 80vh;
+  padding: 15vh 15% 15vh;
+  width: 70%;
+}
+
+#summary {
+  h3, ul {
+    margin-top: 200px;
+  }
+  h3, span { opacity: 0; }
+  h3 {
+    font-size: 32px;
+    font-style: italic;
+    float: left;
+    line-height: 1;
+  }
+  ul {
+    font-style: italic;
+    line-height: 1.5;
+    list-style-type: none;
+    margin-left: 300px;
+  }
+  li {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  span:first-child {
+    display: inline-block;
+    font-family: 'proxima-nova', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-right: 5px;
+    padding-right: 5px;
+    text-transform: uppercase;
+  }
+}
+
+#abbott-and-ellen {
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  blockquote {
+    margin: 0 auto;
+    width: 589px;
+  }
+}
+
+#abbott-and-ellen-2 {
+  padding: 0;
+  width: 100%;
+  .abbott, .ellen {
+    height: 90vh;
+    margin: 0;
+    padding: 0 5vw;
+    width: 39.375vw;
+  }
+  .abbott {
+    background-color: #888;
+    float: left;
+    text-align: right;
+    blockquote {
+      text-align: right;
+    }
+  }
+  .ellen {
+    background-color: #ddd;
+    float: right;
+    text-align: left;
+  }
+  blockquote {
+    width: 400px;
+  }
+}
